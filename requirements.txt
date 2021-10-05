@@ -98,8 +98,6 @@ Shapely==1.7.1
 simplejson==3.17.5
 six==1.16.0
 smmap==4.0.0
-SQLAlchemy==1.4.25
-sqlalchemy-migrate==0.11.0
 sqlparse==0.4.2
 streamlit==0.89.0
 tabula==1.0.5
