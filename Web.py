@@ -11,19 +11,19 @@ from tabula.io import read_pdf
 
 plt.rcParams['figure.figsize'] = (11,7)
 
-pdf_path_12019 = ".\\Trimestrais\\1_2019.pdf"
-pdf_path_22019 = ".\\Trimestrais\\2_2019.pdf"
-pdf_path_32019 = ".\\Trimestrais\\3_2019.pdf"
-pdf_path_42019 = ".\\Trimestrais\\4_2019.pdf"
-pdf_path_12020 = ".\\Trimestrais\\1_2020.pdf"
-pdf_path_22020 = ".\\Trimestrais\\2_2020.pdf"
-pdf_path_32020 = ".\\Trimestrais\\3_2020.pdf"
-pdf_path_42020 = ".\\Trimestrais\\4_2020.pdf"
-pdf_path_12021 = ".\\Trimestrais\\1_2021.pdf"
-pdf_path_22021 = ".\\Trimestrais\\2_2021.pdf"
-pdf_path_32021 = ".\\Trimestrais\\3_2021.pdf"
-pdf_path_42021 = ".\\Trimestrais\\4_2021.pdf"
-pdf_path_12022 = ".\\Trimestrais\\1_2022.pdf"
+pdf_path_12019 = "./Trimestrais/1_2019.pdf"
+pdf_path_22019 = "./Trimestrais/2_2019.pdf"
+pdf_path_32019 = "./Trimestrais/3_2019.pdf"
+pdf_path_42019 = "./Trimestrais/4_2019.pdf"
+pdf_path_12020 = "./Trimestrais/1_2020.pdf"
+pdf_path_22020 = "./Trimestrais/2_2020.pdf"
+pdf_path_32020 = "./Trimestrais/3_2020.pdf"
+pdf_path_42020 = "./Trimestrais/4_2020.pdf"
+pdf_path_12021 = "./Trimestrais/1_2021.pdf"
+pdf_path_22021 = "./Trimestrais/2_2021.pdf"
+pdf_path_32021 = "./Trimestrais/3_2021.pdf"
+pdf_path_42021 = "./Trimestrais/4_2021.pdf"
+pdf_path_12022 = "./Trimestrais/1_2022.pdf"
 
 tabelas12019 = tabula.io.read_pdf(pdf_path_12019, pages='1-2')
 tabelas22019 = tabula.io.read_pdf(pdf_path_22019, pages='1-2')
